@@ -4,6 +4,7 @@ from termcolor import colored
 import urllib.parse
 import re
 import requests
+import pandas as pd
 
 def get_all_stock():
   # prefixes = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','NUMBER']
@@ -49,17 +50,55 @@ def get_data_from_companyholder(stocks):
     if url.status_code == 200:
       soup = BS(url.content, "html.parser")
       free_float = soup.find(lambda tag:tag.name=="td" and "% Free float" in tag.text).find_next_sibling().text
-      stocks['free_float'] = free_float
-
+      stock['free_float'] = free_float
   return stocks
+
+def check_is_trust(stocks):
+  for stock in stocks:
+    url = requests.get("https://www.set.or.th/set/companyhighlight.do?symbol=%s&ssoPageId=5&language=en&country=US"%urllib.parse.quote(stock['name']))
+    status_code = colored(url.status_code,'green') if url.status_code == 200 else colored(url.status_code,'red')
+    print("send request to %s %s"%(url.url,status_code))
+    if url.status_code == 200:
+      soup = BS(url.content, "html5lib")
+      is_trust = bool(soup.find(lambda tag:tag.name=="span" and "Financial Data and Financial Ratio is not available for Trust and Fund securities" in tag.text))
+      stock['is_trust'] = is_trust
+  return stocks
+
+def get_data_from_companyhighlight(stocks,year,quater=""):
+  for stock in stocks:
+    url = requests.get("https://www.set.or.th/set/companyhighlight.do?symbol=%s&ssoPageId=5&language=en&country=US"%urllib.parse.quote(stock['name']))
+    status_code = colored(url.status_code,'green') if url.status_code == 200 else colored(url.status_code,'red')
+    print("send request to %s %s"%(url.url,status_code))
+    if url.status_code == 200:
+      soup = BS(url.content, "html5lib")
+      is_trust = bool(soup.find(lambda tag:tag.name=="span" and "Financial Data and Financial Ratio is not available for Trust and Fund securities" in tag.text))
+      if is_trust:
+        continue
+      tbody = soup.find_all('tbody')
+      thead = soup.find_all('thead')
+      df = pd.read_html('<table>'+str(thead[0])+ str(tbody[0]) +'</table>')
+      df = df[0].set_index('Period as of')
+      for col in range(len(df.columns)):
+        if year in df.columns[col]:
+         break
+      df_selected_year = df.iloc[:,col]
+      
+      
 
 
 # stocks = get_all_stock()
-# print(get_data_from_factsheet(stocks))
-url = requests.get("https://www.set.or.th/set/companyholder.do?symbol=%s&ssoPageId=6&language=en&country=US"%'A')
-status_code = colored(url.status_code,'green') if url.status_code == 200 else colored(url.status_code,'red')
-print(status_code)
-soup = BS(url.content, "html.parser")
-print(soup.find(lambda tag:tag.name=="td" and "% Free float" in tag.text).find_next_sibling().text)
+stocks = [{"name":"A"}]
+stocks = get_data_from_factsheet(stocks)
+stocks = get_data_from_companyholder(stocks)
+print(check_is_trust(stocks))
+# url = requests.get("https://www.set.or.th/set/companyhighlight.do?symbol=%s&ssoPageId=5&language=en&country=US"%'A')
+# status_code = colored(url.status_code,'green') if url.status_code == 200 else colored(url.status_code,'red')
+# print(status_code)
+# soup = BS(url.content, "html5lib")
+# tbody = soup.find_all('tbody')
+# thead = soup.find_all('thead')
+# df = pd.read_html('<table>'+str(thead[0])+ str(tbody[0]) +'</table>')
+# df = df[0].set_index('Period as of')
+# print(df)
 # print(url.content)
 # print(soup.find('table').findAll("tr")[1].find("a").get_text())
