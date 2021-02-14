@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+HANA,EY OFFICE LIMITED,5,"['SET100', 'SETHD', 'SETTHSI']",Electronic Components,50.46,False,24403.10,3713.22,20689.88,804.88,22583.22,2887.73,3.59,12.53,14.21,12.79

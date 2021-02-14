@@ -5,11 +5,12 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "node",
+      "name": "Python: Current File",
+      "type": "python",
       "request": "launch",
-      "name": "Launch Program",
-      "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/rise/webScrape.js"
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "python.pythonPath": "${workspaceFolder}/venv/lib/python3.8/site-packages"
     }
   ]
 }

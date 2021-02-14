@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+KKP,PRICEWATERHOUSE COOPERS ABAS LIMITED,5,"['SET100', 'SETCLMV', 'SETHD', 'SETTHSI']",Banking,86.89,False,259335.24,217787.01,41332.18,8467.51,20460.58,5736.87,6.78,2.82,14.06,28.04

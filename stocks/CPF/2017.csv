@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+CPF,KPMG PHOOMCHAI AUDIT LIMITED,5,"['SET50', 'SETCLMV', 'SETTHSI', 'SETWB']",Food & Beverage,45.65,False,593496.95,366855.09,168015.20,8611.24,523179.98,15259.32,1.91,5.09,10.12,2.92

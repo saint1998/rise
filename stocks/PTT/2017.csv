@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+PTT,EY OFFICE LIMITED,5,"['SET50', 'SETCLMV', 'SETHD', 'SETTHSI']",Energy & Utilities,48.88,False,2232314.16,983758.42,818671.75,28563.00,2044951.64,135179.60,46.74,10.84,17.09,6.61

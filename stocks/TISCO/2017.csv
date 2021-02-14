@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+TISCO,EY OFFICE LIMITED,5,"['SET50', 'SETHD', 'SETTHSI']",Banking,82.04,False,303388.41,268656.64,34604.53,8006.56,24256.64,6090.01,7.61,2.66,18.50,25.11
