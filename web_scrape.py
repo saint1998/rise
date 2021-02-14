@@ -39,7 +39,6 @@ def get_all_stock():
         stock_name = row.find("a").get_text()
         stock = {"name":stock_name}
         stocks.append(stock)
-    # sleep(0.2)
   return stocks
 
 #get auditor, CG, index, sector
@@ -59,8 +58,6 @@ def get_data_from_factsheet(stocks):
       stock['CG'] = CG
       stock['index'] = index
       stock['sector'] = sector
-    # sleep(0.2)
-
   return stocks
 
 def get_data_from_companyholder(stocks):
@@ -73,8 +70,6 @@ def get_data_from_companyholder(stocks):
       free_float_tag = soup.find(lambda tag:tag.name=="td" and "% Free float" in tag.text)
       free_float = free_float_tag.find_next_sibling().text if free_float_tag else "No Data"
       stock['free_float'] = free_float
-    # sleep(0.2)
-
   return stocks
 
 def check_is_trust(stocks):
@@ -86,8 +81,6 @@ def check_is_trust(stocks):
       soup = BS(url.content, "html5lib")
       is_trust = bool(soup.find(lambda tag:tag.name=="span" and "Financial Data and Financial Ratio is not available for Trust and Fund securities" in tag.text))
       stock['is_trust'] = is_trust
-    # sleep(0.2)
-
   return stocks
 
 def get_data_from_companyhighlight(stocks,year,quater=""):
@@ -129,7 +122,6 @@ def get_data_from_companyhighlight(stocks,year,quater=""):
       if not os.path.exists('./stocks/%s' % stock['name']):
         os.makedirs('./stocks/%s' % stock['name'])
       df.to_csv("./stocks/%s/%s.csv"%(stock['name'],year),index=False)
-    # sleep(0.2)
   return stocks
       
 def get_basic_data_to_csv():
@@ -140,26 +132,6 @@ def get_basic_data_to_csv():
   df = pd.DataFrame(stocks)
   df.to_csv('./stocks/all_stocks_basic_data%s.csv'%datetime.today().strftime('%m_%Y'),index=False)
 
-# stocks = get_all_stock()
-# stocks = [{"name":"A"}]
-# stocks = get_data_from_factsheet(stocks)
-# stocks = get_data_from_companyholder(stocks)
-# stocks = check_is_trust(stocks)
-# stocks = pd.read_csv('./stocks/all_stocks_basic_data02_2021.csv')
-# print(stocks)
-# stocks = get_data_from_companyhighlight(stocks,'2017')
-# url = requests.get("https://www.set.or.th/set/companyhighlight.do?symbol=%s&ssoPageId=5&language=en&country=US"%'A')
-# status_code = colored(url.status_code,'green') if url.status_code == 200 else colored(url.status_code,'red')
-# print(status_code)
-# soup = BS(url.content, "html5lib")
-# tbody = soup.find_all('tbody')
-# thead = soup.find_all('thead')
-# df = pd.read_html('<table>'+str(thead[0])+ str(tbody[0]) +'</table>')
-# df = df[0].set_index('Period as of')
-# print(df)
-# print(url.content)
-# print(soup.find('table').findAll("tr")[1].find("a").get_text())
-
 if len(sys.argv) < 2:
   print("Please specific comman\n\t- basic\n\t- financial")
 elif sys.argv[1] == 'basic':
@@ -169,7 +141,6 @@ elif sys.argv[1] == 'financial':
     print('Please specific year in format xxxx')
   else:
     stocks = pd.read_csv('./stocks/all_stocks_basic_data02_2021.csv').to_dict('records')
-    # stocks = [{"name":"A","is_trust":False}]
     get_data_from_companyhighlight(stocks,sys.argv[2])
 
 
