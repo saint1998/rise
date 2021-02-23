@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+INSURE,EY OFFICE LIMITED,4,['SET'],Insurance,24.92,False,789.98,619.29,170.69,100.00,354.86,-3.33,-0.33,-0.30,-1.93,-0.94

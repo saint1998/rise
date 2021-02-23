@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+GLOBAL,"M.R. & ASSOCIATES CO., LTD.",4,"['SET50', 'SETCLMV', 'SETWB']",Commerce,30.96,False,31016.98,16130.62,14672.43,4001.47,26262.41,2003.04,0.50,9.16,14.30,7.63

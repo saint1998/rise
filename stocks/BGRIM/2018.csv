@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+BGRIM,PRICEWATERHOUSE COOPERS ABAS LIMITED,5,"['SET50', 'SETCLMV', 'SETTHSI']",Energy & Utilities,34.62,False,100636.04,72896.92,19253.46,5213.80,37226.86,1862.81,0.71,6.40,9.83,5.00

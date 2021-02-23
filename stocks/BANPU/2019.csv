@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+BANPU,PRICEWATERHOUSE COOPERS ABAS LIMITED,5,"['SET100', 'SETCLMV', 'SETTHSI']",Energy & Utilities,87.79,False,257588.81,167107.96,72194.58,5161.92,97528.86,-552.86,-0.11,3.59,-0.71,-0.57

@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+TASCO,EY OFFICE LIMITED,5,"['SET100', 'SETCLMV', 'SETHD', 'SETTHSI']",Construction Materials,39.44,False,21334.46,6313.82,14837.35,1578.36,26486.16,3591.82,2.28,19.25,25.43,13.56

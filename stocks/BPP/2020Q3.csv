@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+BPP,PRICEWATERHOUSE COOPERS ABAS LIMITED,5,"['SET100', 'SETCLMV', 'SETTHSI']",Energy & Utilities,21.24,False,52907.38,11189.86,40851.04,30510.22,7345.58,2501.22,0.82,5.46,5.30,34.05

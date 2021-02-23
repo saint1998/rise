@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+PTTGC,"DELOITTE TOUCHE TOHMATSU JAIYOS  AUDIT CO., LTD.",5,"['SET50', 'SETCLMV', 'SETHD', 'SETTHSI']",Petrochemicals & Chemicals,51.81,False,489382.65,200388.69,281015.11,45088.49,336467.44,199.61,0.04,0.86,0.07,0.06

@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+KBANK,KPMG PHOOMCHAI AUDIT LIMITED,5,"['SET50', 'SETCLMV', 'SETHD', 'SETTHSI']",Banking,74.48,False,3155090.81,2737268.89,376297.55,23932.60,182231.62,38459.12,16.07,1.80,10.61,21.10

@@ -83,9 +83,11 @@ def check_is_trust(stocks):
       stock['is_trust'] = is_trust
   return stocks
 
-def get_data_from_companyhighlight(stocks,year,quater=""):
+def get_data_from_companyhighlight(stocks,year):
   for stock in stocks:
     if stock['is_trust']:
+      continue
+    if stock['name']=='COL':
       continue
     url = requests.get("https://www.set.or.th/set/companyhighlight.do?symbol=%s&ssoPageId=5&language=en&country=US"%urllib.parse.quote(stock['name']),headers=headers)
     status_code = colored(url.status_code,'green') if url.status_code == 200 else colored(url.status_code,'red')
@@ -100,9 +102,12 @@ def get_data_from_companyhighlight(stocks,year,quater=""):
       df = pd.read_html('<table>'+str(thead[0])+ str(tbody[0]) +'</table>')
       df = df[0].set_index('Period as of')
       column = None
+      file_name = year
       for col in range(len(df.columns)):
         if year in df.columns[col]:
           column=col
+          if 'Q' in df.columns[col]:
+            file_name = "%sQ%s"%(year,df.columns[col][1])
           break
       if column == None:
         continue
@@ -121,7 +126,7 @@ def get_data_from_companyhighlight(stocks,year,quater=""):
       dir_path = os.path.dirname(os.path.realpath(__file__))
       if not os.path.exists('./stocks/%s' % stock['name']):
         os.makedirs('./stocks/%s' % stock['name'])
-      df.to_csv("./stocks/%s/%s.csv"%(stock['name'],year),index=False)
+      df.to_csv("./stocks/%s/%s.csv"%(stock['name'],file_name),index=False)
   return stocks
       
 def get_basic_data_to_csv():

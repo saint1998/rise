@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+EGCO,PRICEWATERHOUSE COOPERS ABAS LIMITED,5,"['SET50', 'SETCLMV', 'SETTHSI']",Energy & Utilities,50.01,False,218273.80,115858.48,101829.42,5264.65,34273.54,6929.11,13.16,7.55,9.25,20.22

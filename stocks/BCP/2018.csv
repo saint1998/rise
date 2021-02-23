@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+BCP,KPMG PHOOMCHAI AUDIT LIMITED,5,"['SET100', 'SETCLMV', 'SETHD', 'SETTHSI']",Energy & Utilities,59.46,False,117368.62,67831.06,42714.97,1376.92,194171.35,2462.88,1.79,4.56,5.57,1.27

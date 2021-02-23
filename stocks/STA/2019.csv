@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+STA,EY OFFICE LIMITED,5,"['SET100', 'SETTHSI']",Agribusiness,54.63,False,58330.87,32842.48,24119.03,1536.00,61303.68,-148.54,-0.10,1.44,-0.61,-0.24

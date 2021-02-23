@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+IRPC,"DELOITTE TOUCHE TOHMATSU JAIYOS  AUDIT CO., LTD.",5,"['SET100', 'SETCLMV', 'SETTHSI']",Energy & Utilities,52.44,False,177850.39,94448.28,83255.73,20434.42,243632.50,-1174.04,-0.06,0.00,-1.38,-0.48

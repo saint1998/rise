@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+MATCH,PRICEWATERHOUSE COOPERS ABAS LIMITED,3,['SET'],Media & Publishing,12.39,False,1648.70,283.56,1365.14,781.63,197.14,-140.41,-0.18,-8.64,-10.38,-71.22

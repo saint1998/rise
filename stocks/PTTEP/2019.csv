@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+PTTEP,PRICEWATERHOUSE COOPERS ABAS LIMITED,5,"['SET50', 'SETCLMV', 'SETHD', 'SETTHSI']",Energy & Utilities,35.19,False,669464.01,312405.29,357058.71,3969.99,199202.10,48802.54,11.72,11.81,13.06,24.50

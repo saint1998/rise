@@ -1,0 +1,183 @@
+2021-02-23 15:18:05,799 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:06,124 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=A&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:06,141 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=A&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:06,439 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:06,782 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=A5&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:06,804 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=A5&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:07,055 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:07,571 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AAV&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:07,578 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AAV&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:07,860 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:08,249 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ABICO&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:08,255 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ABICO&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:08,495 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:08,976 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ABM&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:08,982 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ABM&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:09,218 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:09,616 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ACAP&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:09,636 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ACAP&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:09,885 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:10,274 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ACC&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:10,303 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ACC&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:10,585 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:11,988 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ACE&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:12,062 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ACE&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:12,291 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:12,718 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ACG&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:12,724 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ACG&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:12,951 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:13,283 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ADB&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:13,305 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ADB&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:13,558 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:14,094 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ADVANC&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:14,099 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ADVANC&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:14,334 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:14,694 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AEC&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:14,708 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AEC&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:14,955 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:15,314 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AEONTS&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:15,336 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AEONTS&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:15,586 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:16,195 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AF&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:16,199 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AF&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:16,443 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:16,941 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AFC&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:16,947 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AFC&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:17,361 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:17,717 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AGE&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:17,736 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AGE&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:18,079 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:18,455 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AH&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:18,478 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AH&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:18,903 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:19,258 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AHC&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:19,318 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AHC&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:19,644 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:19,974 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AI&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:19,995 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AI&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:20,341 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:20,674 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AIE&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:20,687 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AIE&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:20,976 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:21,251 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AIRA&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:21,495 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AIRA&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:21,737 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:22,144 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AIT&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:22,151 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AIT&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:22,398 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:22,754 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AJ&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:22,775 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AJ&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:23,046 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:23,369 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AJA&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:23,374 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AJA&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:23,806 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:24,114 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AKP&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:24,154 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AKP&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:24,721 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:25,046 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AKR&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:25,057 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AKR&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:25,563 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:25,856 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ALL&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:25,873 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ALL&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:26,295 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:26,677 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ALLA&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:26,691 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ALLA&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:27,111 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:27,381 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ALT&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:27,408 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ALT&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:28,055 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:28,373 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ALUCON&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:28,396 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ALUCON&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:28,919 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:29,265 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AMA&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:29,339 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AMA&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:29,887 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:30,283 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AMANAH&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:30,291 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AMANAH&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:30,871 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:31,201 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AMARIN&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:31,215 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AMARIN&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:31,565 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:31,999 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AMATA&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:32,012 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AMATA&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:32,326 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:32,648 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AMATAV&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:32,657 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AMATAV&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:33,037 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:33,380 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AMC&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:33,390 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AMC&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:33,615 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:33,974 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ANAN&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:34,257 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ANAN&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:34,496 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:35,043 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AOT&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:35,047 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AOT&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:35,420 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:35,736 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AP&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:35,772 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AP&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:36,054 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:36,417 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=APCO&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:36,423 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=APCO&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:36,664 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:36,993 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=APCS&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:37,000 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=APCS&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:37,257 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:37,564 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=APEX&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:37,581 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=APEX&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:37,832 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:38,209 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=APP&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:38,216 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=APP&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:38,441 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:39,342 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=APURE&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:39,513 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=APURE&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:39,850 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:40,786 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AQ&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:40,792 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AQ&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:41,048 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:42,242 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AQUA&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:42,248 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AQUA&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:42,479 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:42,844 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ARIN&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:42,851 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ARIN&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:43,075 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:43,416 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ARIP&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:43,427 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ARIP&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:43,658 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:44,408 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ARROW&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:44,434 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ARROW&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:44,676 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:45,178 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AS&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:45,200 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AS&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:45,442 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:45,758 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ASAP&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:45,782 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ASAP&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:46,025 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:46,374 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ASEFA&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:46,388 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ASEFA&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:46,633 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:46,952 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ASIA&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:46,965 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ASIA&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:47,217 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:47,658 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ASIAN&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:47,722 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ASIAN&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:48,035 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:48,344 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ASIMAR&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:48,376 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ASIMAR&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:48,999 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:49,295 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ASK&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:49,319 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ASK&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:49,839 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:50,190 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ASN&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:50,243 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ASN&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:50,476 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:50,852 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ASP&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:50,882 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ASP&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:51,143 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:51,450 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=ATP30&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:51,473 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=ATP30&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:51,706 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:51,993 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AU&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:52,036 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AU&ssoPageId=5&language=en&country=US [32m200[0m
+2021-02-23 15:18:52,873 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.set.or.th:443
+2021-02-23 15:18:53,180 - urllib3.connectionpool - DEBUG - https://www.set.or.th:443 "GET /set/companyhighlight.do?symbol=AUCT&ssoPageId=5&language=en&country=US HTTP/1.1" 200 None
+2021-02-23 15:18:53,189 - root - INFO - send request to https://www.set.or.th/set/companyhighlight.do?symbol=AUCT&ssoPageId=5&language=en&country=US [32m200[0m

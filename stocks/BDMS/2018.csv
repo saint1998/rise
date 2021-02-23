@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+BDMS,EY OFFICE LIMITED,5,"['SET50', 'SETCLMV', 'SETTHSI', 'SETWB']",Health Care Services,64.86,False,133498.75,60060.68,70320.11,1566.90,81096.62,9191.46,0.59,10.58,13.78,11.33

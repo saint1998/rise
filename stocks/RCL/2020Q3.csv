@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+RCL,A.M.T. & ASSOCIATES,4,['sSET'],Transportation & Logistics,47.75,False,17961.79,9700.38,8254.94,828.75,12289.55,484.36,0.58,3.54,3.96,3.94

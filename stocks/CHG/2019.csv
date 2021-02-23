@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+CHG,EY OFFICE LIMITED,4,"['SET100', 'SETWB']",Health Care Services,42.61,False,6265.69,2370.25,3702.47,1100.00,5190.87,705.24,0.06,14.85,19.41,13.59

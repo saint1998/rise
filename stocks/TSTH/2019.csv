@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+TSTH,PRICEWATERHOUSE COOPERS ABAS LIMITED,5,['SET'],Steel,32.09,False,12150.33,3114.79,9049.79,8421.54,22304.29,-188.18,-0.02,-0.55,-2.06,-0.84

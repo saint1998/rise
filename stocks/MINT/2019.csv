@@ -1,0 +1,2 @@
+name,auditor,CG,index,sector,free_float,is_trust,assets,liabilities,equity,paid_up_capital,revenue,net_profit,EPS,ROA,ROE,NPM
+MINT,PRICEWATERHOUSE COOPERS ABAS LIMITED,5,"['SET50', 'SETCLMV', 'SETTHSI', 'SETWB']",Food & Beverage,61.55,False,254183.77,168315.92,75461.25,4619.00,129889.11,10697.93,2.04,6.66,14.52,8.24
